@@ -1,0 +1,22 @@
+{
+  "name": "app-mail",
+  "version": "0.0.1",
+  "description": "email - outlook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "email",
+    "office365",
+    "outlook"
+  ],
+  "author": "fmbv",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^1.0.0",
+    "es6-promise": "^4.2.4",
+    "simple-oauth2": "^1.5.2"
+  }
+}
